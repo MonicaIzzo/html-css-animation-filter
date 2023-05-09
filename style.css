@@ -48,6 +48,15 @@
   width: 100px;
   height: 100px;
   background: red;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+  width: 100px;
+  height: 100px;
+  background: red;
+  opacity: 0;
 }
 
 .ex-5-square {
