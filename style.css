@@ -64,6 +64,23 @@
   width: 60px;
   height: 60px;
   background: red;
+  transition: transform 1s;
+}
+
+.ex-5-square:hover {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  background: red;
+  transform: scale(1.8);
+}
+
+.ex-5-square:active {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  background: red;
+  transform: scale(0.8);
 }
 
 .ex-6-img,
