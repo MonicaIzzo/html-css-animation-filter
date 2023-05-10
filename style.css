@@ -126,10 +126,10 @@
 
 .ex-10-icon {
   font-size: 60px;
-  animation: spin 1s linear infinite;
+  animation: roll 1s linear infinite;
 }
 
-@keyframes spin {
+@keyframes roll {
   0% {
     transform: rotate(1turn);
   }
@@ -137,6 +137,24 @@
 
 .ex-11-icon {
   font-size: 60px;
+}
+
+.ex-11-icon:hover {
+  animation: rolltwo 2s linear;
+}
+
+@keyframes rolltwo {
+  0% {
+    transform: rotate(0);
+  }
+
+  90% {
+    transform: rotate(315deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .ex-12-button,
